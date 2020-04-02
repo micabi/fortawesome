@@ -1,0 +1,55 @@
+* html {
+	font-size: 100%;
+}
+
+html {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+body {
+	font-family: "Hiragino Kaku Gothic Pro", YuGothic, Meiryo, "Lucida Grande", Verdana, Helvetica, Arial, "MS PGothic", sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 2.25em;
+	line-height: 1.33333em;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+h4 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+}
+
+h5 {
+	font-size: 1.125em;
+	line-height: 1.33333em;
+}
+
+hgroup h2, h4, h5, h6 {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+p {
+	margin: 0;
+}
+
+.angry::before {
+	display: none;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 400;
+	content: "\f556";
+}
+
+/*# sourceMappingURL=style.css.map */

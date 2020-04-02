@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+@import 'compass';
+@import "compass/typography";
+
+
+$base-font-size: 16px;
+$base-line-height: 24px; // base-font-size * 1.5
+@include establish-baseline;
+
+body{
+  font-family: "Hiragino Kaku Gothic Pro", YuGothic, Meiryo, "Lucida Grande", Verdana, Helvetica, Arial, "MS PGothic", sans-serif;
+}
+
+// h1,h2,h3,h4,h5,h6{@include rhythm-margins(0,1);}
+h1{@include adjust-font-size-to(48px,2)} // base-font-size * 3
+h2{@include adjust-font-size-to(36px,2)} // base-font-size * 2.25
+h3{@include adjust-font-size-to(24px,1)} // base-font-size * 1.5
+h4{@include adjust-font-size-to(20px,1)} // base-font-size * 1.25
+h5{@include adjust-font-size-to(18px,1)} // base-font-size * 1.125
+hgroup h2,h4,h5,h6{@include adjust-font-size-to(16px);} // base-font-size * 1
+p{margin: 0;}
+
+.angry::before{
+  content: "\f556";
+  display: none;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
