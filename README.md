@@ -33,6 +33,7 @@ import {config, dom, library} from '@fortawesome/fontawesome-svg-core';
 import {faAngry} from '@fortawesome/free-regular-svg-icons';
 import {faDog, faCat} from '@fortawesome/free-solid-svg-icons';
 
+config.searchPseudoElements = true; // 擬似要素での使用を許可する
 config.showMissingIcons = true; // iconをimportし忘れたときに？マークが出ないようにするならfalse
 library.add(faAngry, faCat, faDog);
 dom.watch();
@@ -63,7 +64,7 @@ htmlファイルで
   content: "\f556";
   display: none; // noneにしておく
   font-family: "Font Awesome 5 Free";
-  font-weight: 400;
+  font-weight: 400; // regularなら400 solidなら900
 }
 
 ```

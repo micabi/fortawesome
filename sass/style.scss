@@ -26,3 +26,11 @@ p{margin: 0;}
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
+
+.hash::before{
+  content: "\f292";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
