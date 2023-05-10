@@ -80,7 +80,7 @@
     "autoprefixer": "^9.7.4",
     "babel-eslint": "^10.1.0",
     "babelify": "^10.0.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.29.1",
     "compass-importer": "^0.4.1",
     "core-js": "^3.6.4",
     "css-declaration-sorter": "^5.1.2",
